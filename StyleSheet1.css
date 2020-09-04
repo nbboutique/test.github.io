@@ -1,5 +1,4 @@
-﻿body {
-    h1 #men{
+h1#men {
     text-align: center;
 }
 
@@ -9,43 +8,48 @@
 }
 
 div#firstDiv {
-    background: #FEDFC0;
+    background: #fedfc0;
     margin-bottom: 10px;
-    border: 2px solid #7B5427;
+    border: 2px solid #7b5427;
 }
 
 span#firstSpan {
     color: red;
-    border-left: 2px solid #7B5427;
-    border-bottom: 2px solid #7B5427;
+    border-left: 2px solid #7b5427;
+    border-bottom: 2px solid #7b5427;
     background: #cad8d0;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 div#secondDiv {
-    background: #FEDFC0;
+    background: #fedfc0;
     margin: 0;
-    border: 2px solid #7B5427;
+    border: 2px solid #7b5427;
 }
 
 span#secondSpan {
     color: red;
-    border-left: 2px solid #7B5427;
-    border-bottom: 2px solid #7B5427;
+    border-left: 2px solid #7b5427;
+    border-bottom: 2px solid #7b5427;
     background: #cad8d0;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 div#thirdDiv {
-    background: #FEDFC0;
+    background: #fedfc0;
     margin: 0;
-    border: 2px solid #7B5427;
+    border: 2px solid #7b5427;
 }
-
 
 span#thirdSpan {
     color: red;
-    border-left: 2px solid #7B5427;
-    border-bottom: 2px solid #7B5427;
+    border-left: 2px solid #7b5427;
+    border-bottom: 2px solid #7b5427;
     background: #cad8d0;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 @media (min-width: 992px) {
@@ -62,46 +66,45 @@ span#thirdSpan {
     #firstDiv {
         width: 30%;
         margin-right: 20px;
-        background: #FEDFC0;
+        background: #fedfc0;
         margin: 0;
-        border: 2px solid #7B5427;
+        border: 2px solid #7b5427;
         margin-left: 20px;
     }
 
     span#firstSpan {
         color: red;
-        border-left: 2px solid #7B5427;
-        border-bottom: 2px solid #7B5427;
+        border-left: 2px solid #7b5427;
+        border-bottom: 2px solid #7b5427;
         background: #cad8d0;
     }
 
     div#secondDiv {
         width: 30%;
-        background: #FEDFC0;
+        background: #fedfc0;
         margin-right: 20px;
         margin-left: 20px;
-        border: 2px solid #7B5427;
+        border: 2px solid #7b5427;
     }
 
     span#secondSpan {
         color: red;
-        border-left: 2px solid #7B5427;
-        border-bottom: 2px solid #7B5427;
+        border-left: 2px solid #7b5427;
+        border-bottom: 2px solid #7b5427;
         background: #cad8d0;
     }
 
     div#thirdDiv {
         width: 30%;
-        background: #FEDFC0;
+        background: #fedfc0;
         margin: 0;
-        border: 2px solid #7B5427;
+        border: 2px solid #7b5427;
     }
-
 
     span#thirdSpan {
         color: red;
-        border-left: 2px solid #7B5427;
-        border-bottom: 2px solid #7B5427;
+        border-left: 2px solid #7b5427;
+        border-bottom: 2px solid #7b5427;
         background: #cad8d0;
     }
 
@@ -120,9 +123,9 @@ span#thirdSpan {
 
     #firstDiv {
         width: 45%;
-        background: #FEDFC0;
+        background: #fedfc0;
         margin: 0;
-        border: 2px solid #7B5427;
+        border: 2px solid #7b5427;
     }
 
     p#pad {
@@ -131,40 +134,38 @@ span#thirdSpan {
 
     div#secondDiv {
         width: 45%;
-        background: #FEDFC0;
+        background: #fedfc0;
         margin-right: 2%;
         margin-left: 2%;
-        border: 2px solid #7B5427;
+        border: 2px solid #7b5427;
     }
 
     div#thirdDiv {
         width: 93%;
-        background: #FEDFC0;
+        background: #fedfc0;
         margin: 0;
-        border: 2px solid #7B5427;
+        border: 2px solid #7b5427;
     }
 }
 
 @media (max-width: 767px) {
     #firstDiv {
         width: 100%;
-        background: #FEDFC0;
+        background: #fedfc0;
         margin: 0;
-        border: 2px solid #7B5427;
+        border: 2px solid #7b5427;
         align: center;
     }
 
     div#secondDiv {
         width: 100%;
-        background: #FEDFC0;
+        background: #fedfc0;
         margin-right: 2%;
         margin-bottom: 2%;
-        border: 2px solid #7B5427;
+        border: 2px solid #7b5427;
     }
 
     p#pad {
         padding: 10px;
     }
-}
-
 }
